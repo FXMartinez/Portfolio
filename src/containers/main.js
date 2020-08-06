@@ -13,10 +13,15 @@ class Main extends React.Component {
         return (
             <div className='grid-container'>
                 <div className='Header'>
-                    <h2> This is the header </h2>
+                    <h1 className='header'> - Func<mark className='red'>(</mark> <mark className='purple'>Flex</mark> <mark className='red'>)</mark> - </h1>
+                    <div className='menu-bar'>
+                        <Menu />
+                    </div>
                 </div>
                     <div className='layout-left'>
-                        <Menu />
+                        <p>
+                            something
+                        </p>
                     </div>
                     <div className='layout-center'>
                         <Body />
